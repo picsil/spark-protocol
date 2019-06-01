@@ -30,6 +30,11 @@ export default {
     HOST: 'localhost',
     PORT: 5683,
   },
+  UDP_DEVICE_SERVER_CONFIG: {
+    ENABLE_SYSTEM_FIRMWARE_AUTOUPDATES: true,
+    HOST: 'localhost',
+    PORT: 5683,
+  },
   SERVER_KEY_FILENAME: 'default_key.pem',
   SERVER_KEY_PASSWORD: (null: ?string),
   SERVER_KEYS_DIRECTORY: path.join(__dirname, '../data/users'),

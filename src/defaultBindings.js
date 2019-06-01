@@ -25,6 +25,10 @@ type ServerSettings = {
     HOST: string,
     PORT: number,
   },
+  UDP_DEVICE_SERVER_CONFIG: {
+    HOST: String,
+    PORT: Number,
+  },
 };
 
 const defaultBindings = (
