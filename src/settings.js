@@ -32,8 +32,8 @@ export default {
   },
   UDP_DEVICE_SERVER_CONFIG: {
     ENABLE_SYSTEM_FIRMWARE_AUTOUPDATES: true,
-    HOST: 'localhost',
-    PORT: 5683,
+    UDPHOST: 'localhost',
+    UDPPORT: 5683,
   },
   SERVER_KEY_FILENAME: 'default_key.pem',
   SERVER_KEY_PASSWORD: (null: ?string),

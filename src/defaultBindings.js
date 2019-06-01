@@ -26,8 +26,8 @@ type ServerSettings = {
     PORT: number,
   },
   UDP_DEVICE_SERVER_CONFIG: {
-    HOST: String,
-    PORT: Number,
+    UDPHOST: String,
+    UDPPORT: Number,
   },
 };
 
